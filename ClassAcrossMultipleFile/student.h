@@ -1,12 +1,10 @@
-
-#include<string>
-
 class Student {
-    private:
-        std::string full_name;  
-        int age;
-      
     public:
-        Student(std::string f, int a);
-        void display();
+    int sum(int a, int b){
+        return a + b;
+    }
+
+    int diff(int a, int b){
+        return a - b;
+    }
 };

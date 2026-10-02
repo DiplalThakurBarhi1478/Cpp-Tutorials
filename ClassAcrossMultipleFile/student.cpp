@@ -1,14 +1,14 @@
-
-#include "student.h"
 #include<iostream>
-#include<string>
+#include "student.h"
 
-Student :: Student(std::string f, int a){
-    full_name = f;
-    age = a;
-}
+using namespace std;
 
+int main(){
+    Student s1;
+   std::cout <<  s1.sum(5, 6);
+   std::cout << endl;
 
-void Student::display(){
-    std::cout << full_name << "  " << age;
+   std::cout << s1.diff(6 , 2) <<  endl;
+
+   return 0;
 }

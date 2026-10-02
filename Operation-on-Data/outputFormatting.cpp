@@ -132,12 +132,12 @@ int main(){
     cout << "----------------------------------------------------";
     //std::scientific (default where necessary) - std::fixed
 
-    double a {9.497539482452345234};
+    double A {9.497539482452345234};
     double b {2006.0};
     double c {1.34e-10};
 
     cout << "double values used scientific notation automatically that is default:" << endl;
-    cout << "a : " << a << endl;
+    cout << "a : " << A << endl;
     cout << "b : " << b << endl;
     cout << "c : " << c << endl;
     
@@ -165,7 +165,7 @@ int main(){
     cout << "----------------------------------------------------";
     //std::setprecision
 
-    double a {0.917349234134123};
+    double x {0.917349234134123};
 
     cout << a << endl;
 
