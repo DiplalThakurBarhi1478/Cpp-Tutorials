@@ -4,15 +4,7 @@
 using namespace std;
 
 int main(){
-    char string_1 [20] {"Hello Diplal, "};
-    char string_2 [50] {"I have crush on you."};
-
-    strcat(string_1, string_2); // using strcat library
-    cout << string_1; // note theh concatenation occur on the first variable string. 
-
-
-  cout << endl << endl;
-
+    
 
     cout << "creating the dynamic array" << endl;
     
