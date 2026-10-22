@@ -14,8 +14,7 @@ int main(){
     auto sayHello = []{ 
         cout << "Hello World!" << endl;
     };
-
-    cout << sayHello << endl;
+    
     sayHello();
 
 
@@ -29,7 +28,7 @@ int main(){
     cout << squareOfNumber(5) << endl;
     
 
-    
+
     // case 3 : capture list in lambda concept
     int multiplier = 10;
     auto multiply = [multiplier](int x){

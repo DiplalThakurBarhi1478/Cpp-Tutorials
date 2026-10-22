@@ -2,16 +2,23 @@
 
 using namespace std;
 
+// isalnum()
+// isalpha()
+// isblank()
+// islower()
+// isupper()
+// tolower()
+// toupper()
+// isdigit()
+
 int main(){
     // check if:
     // character is alphanumeric ==> isalnum()
-    
-  
     cout << " C is alphanumeric : " << isalnum('C') << endl;
     cout << "^ is alphanumeric : " << isalnum('^') << endl;
 
-    // character is alphatetic ==> isalpha()
 
+    // character is alphatetic ==> isalpha()
     cout << " C is alpha : " << isalpha('C') << endl;
     cout << "^ is alpha : " << isalpha('^') << endl;
 
@@ -24,7 +31,6 @@ int main(){
 
 
     // character is lowercase or uppercase ==> islower()
-
     cout << " C is upper : " << islower('C') << endl;
     cout << "c is low : " << isupper('c') << endl;
 
@@ -42,7 +48,7 @@ int main(){
 
     for (unsigned int i{}; i < sizeof(message); ++i){
         u[i] = toupper(message[i]);
-         cout << u[i];
+        cout << u[i];
     }
 
     cout << endl;
@@ -51,5 +57,7 @@ int main(){
         l[i] = tolower(message[i]);
         cout << l[i];
     }
+
+    return 0;
     
 }

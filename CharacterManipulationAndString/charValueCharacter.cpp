@@ -2,8 +2,12 @@
 
 using namespace std;
 
+// number to character as per ASCII code. like 65 to A
+
 int main(){
-    char value1 = 65; // assigning the character a integer value.
+    char value1 = 65; 
+    // assigning the character a integer value.
+
     cout << value1 << endl;
 
     char value2 = 66;

@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// strcmp
+
 int main(){
     //comparing sting usign std::strcmp
 
