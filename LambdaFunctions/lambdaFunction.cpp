@@ -7,32 +7,30 @@ using namespace std;
 
 int main(){
 
+    // Doing multiple operation using lambda function
+    
+    // case 1 : without parameter
     cout << "Printing Lambda Functions : ";
-    auto sayHello = []{  // without parameter
-        cout << "Hello World!";
+    auto sayHello = []{ 
+        cout << "Hello World!" << endl;
     };
 
     cout << sayHello << endl;
+    sayHello();
 
+
+
+    // case 2 : with parameter and return type
     cout << "Printing lambda function with parameter :";
-
-    auto squareOfNumber = [](int x){ // with parameter
-        return x * x;  // lambda with return type
+    auto squareOfNumber = [](int x){
+        return x * x;  
+        // lambda with return type
     };
-
     cout << squareOfNumber(5) << endl;
-
-
-    auto square = [](int x)
-    { // with parameter
-        return x * x;  // lambda with return type
-    };
     
-    cout << "Printing lambda function with return type : "<< square(5) << endl;
 
     
-    //capture list in lambda concept
-
+    // case 3 : capture list in lambda concept
     int multiplier = 10;
     auto multiply = [multiplier](int x){
         cout << x * multiplier;

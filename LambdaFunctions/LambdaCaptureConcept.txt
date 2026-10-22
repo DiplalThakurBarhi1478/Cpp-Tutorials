@@ -1,0 +1,12 @@
+These are used by lambda function to access variable in different way.
+
+    Capture by value
+    -> it gets one copy of the variable
+    -> if we update the value declared inside the lambada function or anywhere then there only change occur in a copy not in real memory
+
+    Capture by Reference
+    -> it is the another name for the same location or memory address
+    -> if we update it then change occurs in the real address and now whenever we print it it will print the changed value.
+
+    Capture by all
+    -> getting everyting inside the lambda function without passing everything individually.
